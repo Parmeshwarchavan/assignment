@@ -1,0 +1,64 @@
+
+/* assignment fist  css */
+.container
+{
+ display:inline-flex;
+ border:5px solid red;
+ padding-top: 5%;
+ padding-bottom: 5%;
+ padding-right: 40%;
+}
+            
+h1{
+    text-align: center;
+ }
+.box
+ {
+    height:140px;
+    width: 140px;
+    background-color:rgb(109, 240, 240);
+    margin-left: 10%;
+
+ }
+.vert{
+     margin-top: 5%;
+    border:5px solid red;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;     
+ }
+.box1{
+    height:50px;
+    width: 50px;
+    background-color:rgb(206, 68, 137);
+    margin-top: 3%;
+ }
+/* assignment fist  css  ends here*/
+
+/*assignment 6 start here */
+.box3
+ {
+    height:140px;
+    width: 140px;
+    background-color:red;
+    margin-left: 10%;
+    margin-top: 10%;
+    display: none;
+
+ }
+
+ /* assignment 10*/
+
+ .list{
+    width: 90%;
+    height: auto;
+    background-color: rgb(14, 231, 213);
+    
+ }
+
+ /*end */
+
+
+
+
+

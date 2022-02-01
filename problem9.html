@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            .parent
+{
+ display:inline-block;
+ background-color: burlywood;
+ padding-top: 5%;
+ padding-bottom: 5%;
+ padding-right: 40%;
+ height: 400px;
+ width:400px;
+ margin-left: 100px;
+ margin-top: 20px;
+}
+#child
+ {
+    height:400px;
+    width:800px;
+    background-color:rgb(109, 240, 240);
+    margin-left: 10%;
+    display: none;
+
+
+ }
+ 
+
+
+        </style>
+
+        <script type="text/javascript">
+
+        function show() {
+
+                document.getElementById("child").style.display="block";
+                // if (x.style.display === "none") {
+                //     x.style.display = "block";
+                // } else {
+                //     x.style.display = "none";
+                // }
+             }
+
+        function hide()
+        {
+            document.getElementById("child").style.display="none";
+        }
+
+        
+        </script>
+    </head>
+
+    <body>
+        <div class="parent">
+         
+            <div id="child">
+
+                
+            </div>
+            <button onclick="show()">show</button>
+                <button onclick="hide()">hide</button>
+        </div>
+
+    </body>
+</html>

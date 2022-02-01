@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+    <style>
+        #demo{
+            height: 250px;
+            width:250px;
+            background-color: red;
+        }
+    </style>
+</head>
+<h1>New operation perform after every 5 seconds</h1>
+<div id="demo"></div>
+
+<button onclick="myStopFunction()">stop</button>
+
+   <script> 
+const myTimeout = setTimeout(myGreating,3000);
+const cngclr=setInterval(changeColor,10000);
+const cngwidth=setInterval(increseWidth,15000);
+const move=setInterval(move1,20000);
+
+
+
+function myGreating() {
+  document.getElementById("demo").innerHTML = "<h1>welcome</h1>"
+}
+
+function changeColor() {
+  document.getElementById("demo").style.backgroundColor="yellow"
+}
+
+function increseWidth(){
+    document.getElementById("demo").style.width="300px"
+}
+function move1(){
+    document.getElementById("demo").style.marginLeft="700px"
+}
+
+
+</script>
+
+</body>
+</html>
