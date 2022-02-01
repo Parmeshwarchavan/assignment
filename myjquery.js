@@ -52,7 +52,7 @@ $(".increase-width").click(function(){
 });
 
 $(".move-right").click(function(){
-  $(".animation-div").animate("right","200px");
+  $(".animation-div").animate({left:'+=200px'});
 });
 
 //ends
@@ -64,6 +64,14 @@ $(".addcols").click(function(){
      $('#tbl1 tr').append(function(){
     $(this).append('<td style="width:70px";></td>');
     });   
+  });
+
+  //assignment 9 start here
+
+ $("#btn6").click(function(){
+  $("#child").parent().css({"color": "red", "border": "2px solid red"});
+  alert('parent of inner  div is indicated using red border');
+
   });
 
 });

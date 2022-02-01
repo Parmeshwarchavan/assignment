@@ -1,0 +1,5 @@
+Q5. look at the following selector: $("div.intro"). What does it select?
+i.It will get  all the div with class name intro
+ii.It will get all the div.
+
+=>It will get  all the div with class name intro
